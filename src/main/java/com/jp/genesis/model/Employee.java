@@ -9,7 +9,9 @@ public class Employee {
 	private static final long serialVersionUID = 1L;
 	
 	public Employee() {
+		System.out.println("local check");
 	}
+	
 	
 	public Employee( Date birth_date, String first_name, String last_name, char gender, Date hire_date) {
 		super();
